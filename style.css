@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    gap: 8px;
+    gap: 32px;
 }
 
 .header{
@@ -47,7 +47,7 @@ footer{
     display: flex;
     justify-content: center;
     align-content: center;
-    color: dimgrey;
+    color: darkmagenta;
     border-top: 1px solid rgba(221, 221, 221, 0.829);
 }
 
