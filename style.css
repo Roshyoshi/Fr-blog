@@ -34,8 +34,9 @@ img{
     
 }
 .content {
+    align-self: center;
     flex: 1;
-
+    width: 1200px;
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -69,4 +70,39 @@ a{
 
 a:hover{
     background: rgba(197, 42, 197, 0.377);
+}
+
+.blog-content{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.heading{
+    font-size: 24px;
+    color: darkmagenta;
+    font-weight: 700;
+}
+
+.response{
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.877);
+    text-indent: 32px;
+    font-size: 18px;
+}
+
+.quote{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background: rgb(240, 239, 239);
 }
