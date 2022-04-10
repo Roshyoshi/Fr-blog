@@ -9,20 +9,26 @@ body{
 }
 
 .header{
-    background: rgba(153, 31, 153, 0.945);
-    border-bottom: 1px solid rgba(221, 221, 221, 0.829);
+    background: rgb(153, 31, 153);
+    border-bottom: 1px solid rgba(221, 221, 221, 0.336);
     box-shadow: 0 0 8px rgba(197, 42, 197, 0.377);
     color: white;
     display: flex;
-    padding: 8px;
+    width:100%;
     justify-content: space-between;
     align-items: center;
 }
-
+h1{
+    padding: 8px;
+}
 .title{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 1200;
+    font-weight: 1200px;
     font-size: 32px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
 }
 
 img{
@@ -36,7 +42,12 @@ img{
     display: flex;
     justify-content: center;
     gap: 32px;
+    padding: 16px;
+
 }
+.sticky + .content {
+    padding-top: 102px;
+  }
 
 footer{
     background: lightgrey;
