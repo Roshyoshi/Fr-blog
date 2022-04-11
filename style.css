@@ -33,7 +33,6 @@ h1{
 
 img{
     height: 800px;
-    
 }
 .content {
     align-self: center;
@@ -45,7 +44,7 @@ img{
     padding: 16px;
 
 }
-.sticky + .content {
+.sticky + .content + .blog-content{
     padding-top: 102px;
   }
 
